@@ -5,6 +5,9 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.support.PageFactory;
 
 import pages.HomePage;
 import pages.HyundaiCarsPage;
@@ -13,10 +16,10 @@ import pages.NewCarsPage;
 public class FindNewCarsTest {
 
 	public static void main(String[] args) {
-		ChromeOptions options = new ChromeOptions();
+		FirefoxOptions options = new FirefoxOptions();
 		options.addArguments("--disable-notifications");
 		
-		WebDriver driver=new ChromeDriver(options);
+		WebDriver driver=new FirefoxDriver(options);
 //		Options opt=driver.manage();
 //		Window win=opt.window();
 //		win.maximize();

@@ -1,0 +1,3 @@
+INFO    2026-09-05 21:23:56,410 [main] base.BaseTest  - Config properties file has been loaded
+INFO    2026-09-05 21:23:58,562 [main] base.BaseTest  - Chrome browser has been launched
+INFO    2026-09-05 21:23:59,337 [main] base.BaseTest  - Navigated to a site: https://www.carwale.com/

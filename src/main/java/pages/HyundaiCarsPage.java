@@ -2,6 +2,8 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import base.BasePage;
 
@@ -13,8 +15,11 @@ public class HyundaiCarsPage extends BasePage {
 		super(driver);
 	}
 
-	public void getTitle() {
-		String title = driver.findElement(By.xpath("//h1[@data-skin='title']")).getText();
+	@FindBy(xpath="//h1[@data-skin='title']")
+	WebElement carTitle;
+	public String getTitle() {
+		String title=carTitle.getText();
 		System.out.println("Title: " + title);
+		return title;
 	}
 }

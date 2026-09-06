@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import base.BasePage;
 
@@ -15,33 +16,48 @@ public class NewCarsPage extends BasePage{
 		super(driver);
 	}
 	
+	@FindBy(xpath="//div[text()='Tata']")
+	WebElement tata;
+	
+	@FindBy(xpath="//div[text()='Maruti Suzuki']")
+	WebElement maruti;
+	
+	
+	@FindBy(xpath="//div[text()='Hyundai']")
+	WebElement hyundai;
+	
+	@FindBy(xpath="//div[text()='Toyota']")
+	WebElement toyota;
+	
+	@FindBy(xpath="//div[text()='BMW']")
+	WebElement bmw;
 	
 	public TataCarsPage clickOnTata() {
-		WebElement tata=driver.findElement(By.xpath("//div[text()='Tata']"));
+		//WebElement tata=driver.findElement(By.xpath("//div[text()='Tata']"));
 		tata.click();
 		return new TataCarsPage(driver);
 	}
 	
 	public MarutiCarsPage clickOnMaruti() {
-		WebElement maruti=driver.findElement(By.xpath("//div[text()='Maruti Suzuki']"));
+		//WebElement maruti=driver.findElement(By.xpath("//div[text()='Maruti Suzuki']"));
 		maruti.click();
 		return new MarutiCarsPage(driver);
 	}
 	
 	
 	public HyundaiCarsPage clickOnHyundai() {
-		WebElement hyundai=driver.findElement(By.xpath("//div[text()='Hyundai']"));
+		//WebElement hyundai=driver.findElement(By.xpath("//div[text()='Hyundai']"));
 		hyundai.click();
 		return new HyundaiCarsPage(driver);
 	}
 	
 	public ToyotaCarsPage clickOnToyota() {
-		WebElement toyota=driver.findElement(By.xpath("//div[text()='Toyota']"));
+		//WebElement toyota=driver.findElement(By.xpath("//div[text()='Toyota']"));
 		toyota.click();
 		return new ToyotaCarsPage(driver);
 	}
 	public BMWCarsPage clickOnBMW() {
-		WebElement bmw=driver.findElement(By.xpath("//div[text()='BMW']"));
+		//WebElement bmw=driver.findElement(By.xpath("//div[text()='BMW']"));
 		bmw.click();
 		return new BMWCarsPage(driver);
 	}
