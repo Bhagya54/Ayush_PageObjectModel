@@ -15,11 +15,5 @@ public class ToyotaCarsPage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath="//h1[@data-skin='title']")
-	WebElement carTitle;
-	public String getTitle() {
-		String title=carTitle.getText();
-		System.out.println("Title: " + title);
-		return title;
-	}
+	
 }

@@ -15,10 +15,10 @@ import pages.TataCarsPage;
 import pages.ToyotaCarsPage;
 import utility.DataUtils;
 
-public class FindNewCars extends BaseTest {
+public class FindCarModelAndPrices extends BaseTest {
 
 	@Test(dataProviderClass = DataUtils.class,dataProvider = "dp")
-	public void findNewCarTest(String browserName,String runMode,String carName,String expectedCarTitle) {
+	public void findCarModelsAndPrices(String browserName,String runMode,String carName) {
 		if(runMode.equals("n")) {
 			throw new SkipException("skipping the testcase as the runmode is n");
 		}
@@ -52,9 +52,9 @@ public class FindNewCars extends BaseTest {
 			//Assert.assertEquals(toyotaCarsPage.getTitle(),expectedCarTitle);
 		}
 		
-		Assert.assertEquals(BasePage.carBase.getTitle(),expectedCarTitle);
+		//Assert.assertEquals(BasePage.carBase.getTitle(),expectedCarTitle);
 		
-		
+		BasePage.carBase.getCarModelAndPrices();
 		
 		
 	}

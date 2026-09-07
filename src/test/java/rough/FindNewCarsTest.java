@@ -41,7 +41,7 @@ public class FindNewCarsTest {
 		HomePage homePage = new HomePage(driver);
 		NewCarsPage newCarsPage=homePage.findNewCars();
 		HyundaiCarsPage hyundaiCarsPage = newCarsPage.clickOnHyundai();
-		hyundaiCarsPage.getTitle();
+		//hyundaiCarsPage.getTitle();
 
 		
 		//new HomePage(driver).findNewCars().clickOnHyundai().getTitle();

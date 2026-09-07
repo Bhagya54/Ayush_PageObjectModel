@@ -1,6 +1,7 @@
 package pages;
 
-import org.openqa.selenium.By;
+import java.util.*;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,11 +16,12 @@ public class TataCarsPage extends BasePage{
 		super(driver);
 	}
 
-	@FindBy(xpath="//h1[@data-skin='title']")
-	WebElement carTitle;
-	public String getTitle() {
-		String title=carTitle.getText();
-		System.out.println("Title: " + title);
-		return title;
-	}
+	
+	/*
+	 * Car Mode - //h3
+	 * CarPrice - //div/div[3]/div/span/span[1]
+	 * 
+	 */
+	
+
 }

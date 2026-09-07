@@ -17,10 +17,10 @@ public class HomePage extends BasePage{
 	}
 
 	@FindBy(xpath="(//input[@aria-label='Input field'])[1]")
-	WebElement searchTxtBox;
+	private WebElement searchTxtBox;
 	
 	@FindBy(xpath="//div[normalize-space()='NEW CARS']")
-	WebElement newCars;
+	private WebElement newCars;
 	
 	@FindBy(xpath="//div[text()='Find New Cars']")
 	WebElement findNewCars;

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Car Website</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/4/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/2/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 05 21:23:11 IST 2026</td>
+<td>Started on:</td><td>Mon Sep 07 10:11:36 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>59 seconds (59872 ms)</td>
+<tr><td>Total time:</td><td>42 seconds (42654 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,185 +76,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.FindNewCars.findNewCarTest()'><b>findNewCarTest</b><br>Test class: testcases.FindNewCars<br>Parameters: chrome, y, bmw, BMW Cars</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Find New Cars&apos;]&quot;}
-  (Session info: chrome=153.0.8010.27)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bb7713199064553ab4fa0dbeaef258d7, findElement {value=//div[text()=&apos;Find New Cars&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.27, chrome: {chromedriverVersion: 153.0.8010.12 (971a7443b0c9..., userDataDir: C:\Users\91733\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59930}, goog:processID: 5216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59930/devtoo..., se:cdpVersion: 153.0.8010.27, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bb7713199064553ab4fa0dbeaef258d7
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at pages.HomePage.findNewCars(HomePage.java:39)
-	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace596905862", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace596905862'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Find New Cars&apos;]&quot;}
-  (Session info: chrome=153.0.8010.27)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bb7713199064553ab4fa0dbeaef258d7, findElement {value=//div[text()=&apos;Find New Cars&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.27, chrome: {chromedriverVersion: 153.0.8010.12 (971a7443b0c9..., userDataDir: C:\Users\91733\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59930}, goog:processID: 5216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59930/devtoo..., se:cdpVersion: 153.0.8010.27, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bb7713199064553ab4fa0dbeaef258d7
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at pages.HomePage.findNewCars(HomePage.java:39)
-	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:27)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>15</td>
-<td>testcases.FindNewCars@350ec41e</td></tr>
-<tr>
-<td title='testcases.FindNewCars.findNewCarTest()'><b>findNewCarTest</b><br>Test class: testcases.FindNewCars<br>Parameters: edge, y, maruti, Maruti Suzuki Cars</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Find New Cars&apos;]&quot;}
-  (Session info: MicrosoftEdge=152.0.4191.62)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [51849f9d3868a0484b41c9e0b8571336, findElement {value=//div[text()=&apos;Find New Cars&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.62, fedcm:accounts: true, goog:processID: 31280, ms:edgeOptions: {debuggerAddress: localhost:54321}, msedge: {msedgedriverVersion: 152.0.4191.66 (cc2931e6363a..., userDataDir: C:\Users\91733\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54321/devtoo..., se:cdpVersion: 152.0.4191.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 51849f9d3868a0484b41c9e0b8571336
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at pages.HomePage.findNewCars(HomePage.java:39)
-	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace429269396", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace429269396'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Find New Cars&apos;]&quot;}
-  (Session info: MicrosoftEdge=152.0.4191.62)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [51849f9d3868a0484b41c9e0b8571336, findElement {value=//div[text()=&apos;Find New Cars&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.62, fedcm:accounts: true, goog:processID: 31280, ms:edgeOptions: {debuggerAddress: localhost:54321}, msedge: {msedgedriverVersion: 152.0.4191.66 (cc2931e6363a..., userDataDir: C:\Users\91733\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54321/devtoo..., se:cdpVersion: 152.0.4191.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 51849f9d3868a0484b41c9e0b8571336
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at pages.HomePage.findNewCars(HomePage.java:39)
-	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:27)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>14</td>
-<td>testcases.FindNewCars@350ec41e</td></tr>
-<tr>
 <td title='testcases.FindNewCars.findNewCarTest()'><b>findNewCarTest</b><br>Test class: testcases.FindNewCars<br>Parameters: firefox, y, hyundai, Hyundai Carssss</td>
 <td><div><pre>java.lang.AssertionError: expected [Hyundai Carssss] but found [Hyundai Cars]
-	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:31)
+	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:55)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace499609505", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace499609505'><pre>java.lang.AssertionError: expected [Hyundai Carssss] but found [Hyundai Cars]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1825662648", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1825662648'><pre>java.lang.AssertionError: expected [Hyundai Carssss] but found [Hyundai Cars]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:31)
+	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:55)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -282,7 +116,7 @@ Session ID: 51849f9d3868a0484b41c9e0b8571336
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>12</td>
+<td>11</td>
 <td>testcases.FindNewCars@350ec41e</td></tr>
 <tr>
 <td title='testcases.FindNewCars.findNewCarTest()'><b>findNewCarTest</b><br>Test class: testcases.FindNewCars<br>Parameters: chrome, y, toyota, Toyota Cars</td>
@@ -292,9 +126,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c2e273daa4bb0ec77cd97dcfc4b9eaa8, findElement {value=//div[text()=&apos;Find New Cars&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.27, chrome: {chromedriverVersion: 153.0.8010.12 (971a7443b0c9..., userDataDir: C:\Users\91733\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57672}, goog:processID: 7004, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57672/devtoo..., se:cdpVersion: 153.0.8010.27, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c2e273daa4bb0ec77cd97dcfc4b9eaa8
+Command: [54da133338c9bc7546dd051f8592c52f, findElement {value=//div[text()=&apos;Find New Cars&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.27, chrome: {chromedriverVersion: 153.0.8010.12 (971a7443b0c9..., userDataDir: C:\Users\91733\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56670}, goog:processID: 41756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56670/devtoo..., se:cdpVersion: 153.0.8010.27, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54da133338c9bc7546dd051f8592c52f
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -310,18 +144,18 @@ Session ID: c2e273daa4bb0ec77cd97dcfc4b9eaa8
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
 	at pages.HomePage.findNewCars(HomePage.java:39)
-	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:27)
+	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace865744496", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace865744496'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Find New Cars&apos;]&quot;}
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace503879157", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace503879157'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Find New Cars&apos;]&quot;}
   (Session info: chrome=153.0.8010.27)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c2e273daa4bb0ec77cd97dcfc4b9eaa8, findElement {value=//div[text()=&apos;Find New Cars&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.27, chrome: {chromedriverVersion: 153.0.8010.12 (971a7443b0c9..., userDataDir: C:\Users\91733\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57672}, goog:processID: 7004, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57672/devtoo..., se:cdpVersion: 153.0.8010.27, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c2e273daa4bb0ec77cd97dcfc4b9eaa8
+Command: [54da133338c9bc7546dd051f8592c52f, findElement {value=//div[text()=&apos;Find New Cars&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.27, chrome: {chromedriverVersion: 153.0.8010.12 (971a7443b0c9..., userDataDir: C:\Users\91733\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56670}, goog:processID: 41756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56670/devtoo..., se:cdpVersion: 153.0.8010.27, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54da133338c9bc7546dd051f8592c52f
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -337,7 +171,7 @@ Session ID: c2e273daa4bb0ec77cd97dcfc4b9eaa8
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
 	at pages.HomePage.findNewCars(HomePage.java:39)
-	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:27)
+	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:28)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -365,7 +199,26 @@ Session ID: c2e273daa4bb0ec77cd97dcfc4b9eaa8
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>14</td>
+<td>13</td>
+<td>testcases.FindNewCars@350ec41e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.FindNewCars.findNewCarTest()'><b>findNewCarTest</b><br>Test class: testcases.FindNewCars<br>Parameters: edge, y, maruti, Maruti Suzuki Cars</td>
+<td></td>
+<td>6</td>
+<td>testcases.FindNewCars@350ec41e</td></tr>
+<tr>
+<td title='testcases.FindNewCars.findNewCarTest()'><b>findNewCarTest</b><br>Test class: testcases.FindNewCars<br>Parameters: chrome, y, bmw, BMW Cars</td>
+<td></td>
+<td>7</td>
 <td>testcases.FindNewCars@350ec41e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -379,11 +232,11 @@ Session ID: c2e273daa4bb0ec77cd97dcfc4b9eaa8
 <tr>
 <td title='testcases.FindNewCars.findNewCarTest()'><b>findNewCarTest</b><br>Test class: testcases.FindNewCars<br>Parameters: firefox, n, tata, Tata Cars</td>
 <td><div><pre>org.testng.SkipException: skipping the testcase as the runmode is n
-	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:22)
+	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8268900", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace8268900'><pre>org.testng.SkipException: skipping the testcase as the runmode is n
-	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:22)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace247269033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace247269033'><pre>org.testng.SkipException: skipping the testcase as the runmode is n
+	at testcases.FindNewCars.findNewCarTest(FindNewCars.java:23)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)

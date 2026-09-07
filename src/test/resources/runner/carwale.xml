@@ -6,15 +6,20 @@
 		<listener class-name="extentlisteners.ExtentListeners"></listener>
 	</listeners>
 
-	<test thread-count="5" name="Car Website">
+	<test thread-count="5" name="Car Title">
 		<classes>
 			<class name="testcases.FindNewCars" />
 		</classes>
 	</test>
 
 
+	<test thread-count="5" name="Car Model And Prices">
+		<classes>
+			<class name="testcases.FindCarModelAndPrices" />
+		</classes>
+	</test>
 
-	
+
 
 	<!-- BasicTest -->
 </suite> <!-- BasicSuite -->

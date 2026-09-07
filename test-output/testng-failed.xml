@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="extentlisteners.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="Car Website(failed)">
+  <test thread-count="5" name="Car Title(failed)">
     <classes>
       <class name="testcases.FindNewCars">
         <methods>
@@ -13,5 +13,15 @@
         </methods>
       </class> <!-- testcases.FindNewCars -->
     </classes>
-  </test> <!-- Car Website(failed) -->
+  </test> <!-- Car Title(failed) -->
+  <test thread-count="5" name="Car Model And Prices(failed)">
+    <classes>
+      <class name="testcases.FindCarModelAndPrices">
+        <methods>
+          <include name="findCarModelsAndPrices" invocation-numbers="0 2 3 4"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.FindCarModelAndPrices -->
+    </classes>
+  </test> <!-- Car Model And Prices(failed) -->
 </suite> <!-- Failed suite [BasicSuite] -->
